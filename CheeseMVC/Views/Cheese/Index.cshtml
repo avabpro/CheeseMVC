@@ -1,0 +1,27 @@
+﻿@{
+    //layout is automatically compiled from the layout file in the shared views folder
+    //in order to break from this parent layout and create our own, set layout to null
+    //Layout = null;
+    //use shared _Layout.cshtml
+
+    //fun fact: templates, unlike controllers, can "hot deploy" aka redeploy to the running server while the server is running
+    //no need to stop restart CheeseMVC to preview changes made to html; just refresh the page
+
+}
+
+<h1>Today's Menu!</h1>
+<h2>Senegalese Cuisine:</h2>
+
+@if (ViewBag.dishes.Count == 0)
+{
+    <p>No items yet! Please contribute a dish.</p>
+}
+
+<ul>
+    @foreach (KeyValuePair<string, string> dish in ViewBag.dishes)
+    {
+        <li>@dish.Key (@dish.Value)</li>
+    }
+</ul>
+
+<p><a asp-controller="Cheese" asp-action="Add">Add menu item</a></p>
