@@ -52,6 +52,24 @@ namespace CheeseMVC.Controllers
             return View("Error");
         }
         */
+
+        public IActionResult Remove()
+        {
+            ViewBag.dishes = Dishes;
+
+            return View();
+        }
+
+        [HttpPost]
+        [Route("/Cheese/Remove")]
+        public IActionResult RemoveDish(string name)
+        {
+            // add the new dish to the existing dishes
+            Dishes.Remove(name);
+
+            return Redirect("/Cheese");
+        }
+
     }
 
    

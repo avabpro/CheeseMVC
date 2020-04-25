@@ -218,3 +218,4 @@ C:\Users\proko\source\repos\avabpro\CheeseMVC\CheeseMVC\obj\Debug\netcoreapp3.1\
 C:\Users\proko\source\repos\avabpro\CheeseMVC\CheeseMVC\obj\Debug\netcoreapp3.1\CheeseMVC.csproj.CopyComplete
 C:\Users\proko\source\repos\avabpro\CheeseMVC\CheeseMVC\obj\Debug\netcoreapp3.1\CheeseMVC.dll
 C:\Users\proko\source\repos\avabpro\CheeseMVC\CheeseMVC\obj\Debug\netcoreapp3.1\CheeseMVC.pdb
+C:\Users\proko\source\repos\avabpro\CheeseMVC\CheeseMVC\obj\Debug\netcoreapp3.1\Razor\Views\Cheese\Remove.cshtml.g.cs
